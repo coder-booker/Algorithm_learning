@@ -6,24 +6,19 @@ public:
         max_len = window_len = 0;
         int i, j;
         i = j = 0;
-        char left_letter, right_letter;
+        char right_letter;
         while ( j < s.length() ) {
-            right_letter = s.at(j);    // this will convert to char
-            if ( window_map[right_letter] ) {
-                while ( s.at(i) != right_letter ) { // s.at(i) will go away eventually, no need i != j
-                    --window_map[s.at(i)];
-                    ++i;
-                    --window_len;
-                }
+            right_letter = s.at(j);     // this will convert to char
+            ++window_map[right_letter];
+            ++j;                        // regularly move right bountary
+
+            // move left boundary if duplicated element occurs
+            while ( window_map[right_letter] > 1 ) { // s.at(i) will go away eventually, no need i != j
                 --window_map[s.at(i)];
                 ++i;
-                --window_len;
             }
-            // regularly move right bountary
-            ++window_map[right_letter];;
-            ++window_len;
-            max_len = max(max_len, window_len); // or j-i
-            ++j;
+
+            max_len = max(max_len, j - i);
         }
         return max_len;
     }

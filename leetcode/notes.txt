@@ -1,0 +1,17 @@
+They are so smart. 
+What I can do is to drop some fixed practices for certain algorithms. 
+
+general: 
+    1. try to do it manually once
+
+dp: 
+    1. how to defien dp[i]?
+    2. how to update dp[i+1] from dp[i]?
+    3. how to get the result from dp?
+    some abstract mindset: 
+        how to keep transfer the state? (states can be +ve or -ve states that benefit or harm the result respectively)
+
+moving windows:
+    1. when to move left and right?
+    2. when to stop moving left and right?
+    3. how to update the result?

@@ -3,15 +3,20 @@ What I can do is to drop some fixed practices for certain algorithms.
 
 general: 
     1. try to do it manually once
-
+    2. 可能有用的关键字：相邻/连续、最大最小、以此开头/结尾
+    3. 留意题目要求的输出，有时候某些信息不一定需要在算法中被保留（eg 求最大子数组和不需要子数组索引）
 dp: 
     1. how to defien dp[i]?
     2. how to update dp[i+1] from dp[i]?
     3. how to get the result from dp?
     some abstract mindset: 
-        how to keep transfer the state? (states can be +ve or -ve states that benefit or harm the result respectively)
+        how to keep transfering the state? (states can be +ve or -ve states that benefit or harm the result respectively)
 
 moving windows:
     1. when to move left and right?
     2. when to stop moving left and right?
     3. how to update the result?
+    4. 关键不在于怎么停在最优的left和right，而在于怎么遍历所有有利可能性并
+    there are two types of moving windows: 
+        1. left = right = begin;
+        2. left = begin, right = end;

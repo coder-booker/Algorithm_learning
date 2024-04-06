@@ -20,3 +20,6 @@ moving windows:
     there are two types of moving windows: 
         1. left = right = begin;
         2. left = begin, right = end;
+
+sort: 
+    c++ normally consumes nlogn

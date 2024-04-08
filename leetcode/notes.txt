@@ -6,7 +6,7 @@ general:
     2. 可能有用的关键字：相邻/连续、最大最小、以此开头/结尾
     3. 留意题目要求的输出，有时候某些信息不一定需要在算法中被保留（eg 求最大子数组和不需要子数组索引）
 dp: 
-    1. how to defien dp[i]?
+    1. how to define dp[i]?
     2. how to update dp[i+1] from dp[i]?
     3. how to get the result from dp?
     some abstract mindset: 

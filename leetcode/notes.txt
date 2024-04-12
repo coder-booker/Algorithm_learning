@@ -1,6 +1,9 @@
 They are so smart. 
 What I can do is to drop some fixed practices for certain algorithms. 
 
+Complexity: 
+    1. only nested loop makes more complex result. multiple separate loops are still in O(n)
+
 general: 
     1. try to do it manually once
     2. 可能有用的关键字：相邻/连续、最大最小、以此开头/结尾
@@ -23,3 +26,7 @@ moving windows:
 
 sort: 
     c++ normally consumes nlogn
+
+to_learn:
+    1. 轮转数组
+    2. 分治法

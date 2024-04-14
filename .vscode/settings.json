@@ -4,6 +4,9 @@
         "vector": "cpp",
         "array": "cpp",
         "deque": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "initializer_list": "cpp"
     }
 }

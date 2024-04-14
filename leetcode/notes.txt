@@ -27,6 +27,10 @@ moving windows:
 sort: 
     c++ normally consumes nlogn
 
+in-place algorithm: 
+    1. use the original/part of array to store the result. then O(1) space complexity
+    2. use a single extra variable to store the result. then O(1) space complexity
+
 to_learn:
     1. 轮转数组
     2. 分治法

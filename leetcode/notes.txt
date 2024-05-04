@@ -14,12 +14,11 @@ dp:
     3. how to get the result from dp?
     some abstract mindset: 
         how to keep transfering the state? (states can be +ve or -ve states that benefit or harm the result respectively)
-
 moving windows:
     1. when to move left and right?
     2. when to stop moving left and right?
     3. how to update the result?
-    4. 关键不在于怎么停在最优的left和right，而在于怎么遍历所有有利可能性并
+    4. 关键不在于怎么停在最优的left和right，而在于怎么遍历所有有利可能性
     there are two types of moving windows: 
         1. left = right = begin;
         2. left = begin, right = end;
@@ -34,3 +33,4 @@ in-place algorithm:
 to_learn:
     1. 轮转数组
     2. 分治法
+    3. 旋转图像

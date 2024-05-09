@@ -23,6 +23,12 @@ moving windows:
         1. left = right = begin;
         2. left = begin, right = end;
 
+linked list: 
+    1. typical questions: 
+        nth node from the end.
+        dummy list
+        intersection
+
 sort: 
     c++ normally consumes nlogn
 

@@ -10,6 +10,13 @@ general:
     3. 留意题目要求的输出，有时候某些信息不一定需要在算法中被保留（eg 求最大子数组和不需要子数组索引）
     4. 贪心
     5. 
+sort: 
+    c++ normally consumes nlogn
+
+in-place algorithm: 
+    1. use the original/part of array to store the result. then O(1) space complexity
+    2. use a single extra variable to store the result. then O(1) space complexity
+
 dp: 
     1. how to define dp[i]?
     2. how to update dp[i+1] from dp[i]?
@@ -24,23 +31,15 @@ moving windows:
     there are two types of moving windows: 
         1. left = right = begin;
         2. left = begin, right = end;
-
 linked list: 
     1. typical questions: 
         nth node from the end.
         dummy list
         intersection
 
-sort: 
-    c++ normally consumes nlogn
-
-in-place algorithm: 
-    1. use the original/part of array to store the result. then O(1) space complexity
-    2. use a single extra variable to store the result. then O(1) space complexity
-
 to_learn:
     1. 轮转数组
     2. 分治法
     3. 旋转图像
-    4. 二分查找
+    4. dp，322.cpp
     

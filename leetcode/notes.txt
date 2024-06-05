@@ -3,7 +3,6 @@ What I can do is to drop some fixed practices for certain algorithms.
 
 Complexity: 
     1. only nested loop makes more complex result. multiple separate loops are still in O(n)
-
 general: 
     1. try to do it manually once
     2. 可能有用的关键字：相邻/连续、最大最小、以此开头/结尾
@@ -12,7 +11,6 @@ general:
     5. 
 sort: 
     c++ normally consumes nlogn
-
 in-place algorithm: 
     1. use the original/part of array to store the result. then O(1) space complexity
     2. use a single extra variable to store the result. then O(1) space complexity
@@ -34,12 +32,17 @@ moving windows:
 linked list: 
     1. typical questions: 
         nth node from the end.
+        half from the end. 
         dummy list
-        intersection
+        intersection (linked list concatentation)
+    2. dummy node can be used as the head node of modified linked list (so even if it is the original first node that changed, the dummy node is still the head)
+    3. delete ==> 1 ptr. swap ==> 2 ptrs?
 
 to_learn:
     1. 轮转数组
     2. 分治法
     3. 旋转图像
-    4. dp，322.cpp
+    4. 二叉树、红黑树、avl树
     
+to do:
+    234.cpp, 322.cpp, 240.cpp, recursion

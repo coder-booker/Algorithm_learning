@@ -45,4 +45,3 @@ to_learn:
     4. 二叉树、红黑树、avl树
     
 to do:
-    review 25.cpp once

@@ -9,6 +9,7 @@ general:
     3. 留意题目要求的输出，有时候某些信息不一定需要在算法中被保留（eg 求最大子数组和不需要子数组索引）
     4. 贪心
     5. % 可以用来 range control (189.cpp 轮转数组)
+    6. 随机链表拷贝（138.cpp）
 sort: 
     c++ normally consumes nlogn
 in-place algorithm: 
@@ -45,3 +46,6 @@ to_learn:
     4. 二叉树、红黑树、avl树
     
 to do:
+
+other: 
+    148.cpp skipped

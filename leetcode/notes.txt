@@ -41,11 +41,14 @@ linked list:
     4. recursion is useful but costly. iteration is space saving but harder to implement.
 
 to_learn:
-    2. 分治法
-    3. 旋转图像
+    2. 为什么这个优先队列可以插入NULL?????：
+        priority_queue<ListNode*, vector<ListNode*>, function<bool(ListNode*, ListNode*)>> pq(
+            [] (ListNode* a, ListNode* b) { return a->val > b->val; });
     4. 二叉树、红黑树、avl树
     
 to do:
 
 other: 
     148.cpp skipped
+
+

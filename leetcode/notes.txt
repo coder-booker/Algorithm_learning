@@ -39,6 +39,10 @@ linked list:
     2. dummy node can be used as the head node of modified linked list (so even if it is the original first node that changed, the dummy node is still the head)
     3. delete ==> 1 ptr. swap ==> 2 ptrs?
     4. recursion is useful but costly. iteration is space saving but harder to implement.
+queue: 
+    FIFO
+    priority queue: 
+        implemented by heap, therefore have priority. 
 
 to_learn:
     2. 为什么这个优先队列可以插入NULL?????：

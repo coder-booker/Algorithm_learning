@@ -43,6 +43,10 @@ queue:
     FIFO
     priority queue: 
         implemented by heap, therefore have priority. 
+stack:
+    s.top(); s.pop(); s.push();
+vector:
+    v.insert(v.end(), v2.begin(), v2.end());
 
 to_learn:
     2. 为什么这个优先队列可以插入NULL?????：

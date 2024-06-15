@@ -39,6 +39,10 @@ linked list:
     2. dummy node can be used as the head node of modified linked list (so even if it is the original first node that changed, the dummy node is still the head)
     3. delete ==> 1 ptr. swap ==> 2 ptrs?
     4. recursion is useful but costly. iteration is space saving but harder to implement.
+tree: 
+    1. 前序是进入，后序是退出，中序是前序切换后序
+    2. 可以用前序的遍历思路，也可以用后序的返回子树思路
+    3. 前序能利用参数，后序能利用参数和返回值
 queue: 
     FIFO
     priority queue: 
@@ -49,6 +53,7 @@ vector:
     v.insert(v.end(), v2.begin(), v2.end());
 
 to_learn:
+    1. 前序中序后序遍历的迭代实现和Morris遍历
     2. 为什么这个优先队列可以插入NULL?????：
         priority_queue<ListNode*, vector<ListNode*>, function<bool(ListNode*, ListNode*)>> pq(
             [] (ListNode* a, ListNode* b) { return a->val > b->val; });

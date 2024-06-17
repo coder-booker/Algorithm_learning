@@ -41,10 +41,11 @@ linked list:
     4. recursion is useful but costly. iteration is space saving but harder to implement.
 tree: 
     1. 前序是进入，后序是退出，中序是前序切换后序
-    2. 可以用前序的遍历思路，也可以用后序的返回子树思路
+    2. 遍历思路：前序；分解问题思路：后序
     3. 前序能利用参数，后序能利用参数和返回值
 queue: 
     FIFO
+    .push(), .pop(), .front(), .back(), .empty()
     priority queue: 
         implemented by heap, therefore have priority. 
 stack:

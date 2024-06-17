@@ -9,16 +9,27 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
-        // Method 1: recursion
+        // // Method 1: sub-question
+        // if ( root == nullptr ) {
+        //     return root;
+        // }
+        // invertTree(root->left);
+        // invertTree(root->right);
+        // swap(root->left, root->right);
+        // return root;
+
+        // Method 2: traverse
         if ( root == nullptr ) {
             return root;
         }
+        swap(root->left, root->right);
         invertTree(root->left);
         invertTree(root->right);
-        swap(root->left, root->right);
         return root;
+        
     }
 };

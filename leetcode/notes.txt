@@ -45,6 +45,15 @@ tree:
     3. 前序能利用参数，后序能利用参数和返回值
     4. 如果要储存所有叶子节点，空间复杂度是O(n)（O(2^(round_down(log(n)) + 1)) = O(n+1) = O(n)
     5. BFS: 用queue，DFS: 用stack
+    BST
+        二叉查找/搜索/排序树
+        中序遍历是升序的数组
+        有序数组构建二叉搜索树会变成链表
+    平衡二叉树
+        ＝平衡的二叉搜索树
+        每个节点的左右子树高度差不超过1
+        有序数组不会有链表的情况出现
+        AVL树，红黑树都是平衡二叉搜索树
 queue: 
     FIFO
     .push(), .pop(), .front(), .back(), .empty()
@@ -61,6 +70,7 @@ to_learn:
         priority_queue<ListNode*, vector<ListNode*>, function<bool(ListNode*, ListNode*)>> pq(
             [] (ListNode* a, ListNode* b) { return a->val > b->val; });
     4. 二叉树、红黑树、avl树
+    5. 1382.cpp的原地算法
     
 to do:
 

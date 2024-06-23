@@ -40,11 +40,11 @@ linked list:
     3. delete ==> 1 ptr. swap ==> 2 ptrs?
     4. recursion is useful but costly. iteration is space saving but harder to implement.
 tree: 
-    1. 前序是进入，后序是退出，中序是前序切换后序
-    2. 遍历思路：前序；分解问题思路：后序
-    3. 前序能利用参数，后序能利用参数和返回值
-    4. 如果要储存所有叶子节点，空间复杂度是O(n)（O(2^(round_down(log(n)) + 1)) = O(n+1) = O(n)
-    5. BFS: 用queue，DFS: 用stack
+    前序是进入，后序是退出，中序是前序切换后序
+    遍历思路：前序；分解问题思路：后序
+    前序能利用参数，后序能利用参数和返回值；对于需要递归检查某种约束，前序和后序都有可取之处：前序可以传递参数，后序可以获得子最优解 （*************递归与递推的异同****************）
+    如果要储存所有叶子节点，空间复杂度是O(n)（O(2^(round_down(log(n)) + 1)) = O(n+1) = O(n)
+    BFS: 用queue，DFS: 用stack
     BST
         二叉查找/搜索/排序树
         中序遍历是升序的数组

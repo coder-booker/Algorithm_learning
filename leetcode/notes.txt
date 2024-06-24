@@ -10,6 +10,9 @@ general:
     4. 贪心
     5. % 可以用来 range control (189.cpp 轮转数组)
     6. 随机链表拷贝（138.cpp）
+    i++ or ++i: 
+        i++: return i, then i = i + 1
+        ++i: i = i + 1, then return i
 sort: 
     c++ normally consumes nlogn
 in-place algorithm: 

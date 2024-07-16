@@ -18,6 +18,10 @@ var buildTree = function(preorder, inorder) {
   if ( preorder.length === 1 ) {
       return new TreeNode(preorder[0]);
   }
+  const map = new Map();
+  inorder.forEach((element, index) => {
+      map.set(element, index);
+  });
   function recurBuild(preS, preE, inS, inE) {
       // console.log(preS, preE, inS, inE);
       if ( preS > preE ) {
@@ -25,7 +29,7 @@ var buildTree = function(preorder, inorder) {
       }
 
       let root = new TreeNode(preorder[preS]);
-      const inRoot = inorder.indexOf(root.val);
+      const inRoot = map.get(root.val);
       const leftTreeSize = inRoot - inS;
       // const rightTreeSize = inE - inRoot;
 

@@ -40,7 +40,7 @@ linked list:
         dummy list
         intersection (linked list concatentation)
     2. dummy node can be used as the head node of modified linked list (so even if it is the original first node that changed, the dummy node is still the head)
-    3. delete ==> 1 ptr. swap ==> 2 ptrs?
+    3. delete ==> 2 ptrs(被删除的那个，接上的前一个). swap ==> 3 ptrs(被swap的俩，接上的前一个)
     4. recursion is useful but costly. iteration is space saving but harder to implement.
 tree: 
     前序是进入，后序是退出，中序是前序切换后序
@@ -74,8 +74,7 @@ to_learn:
             [] (ListNode* a, ListNode* b) { return a->val > b->val; });
     4. 二叉树、红黑树、avl树
     5. 1382.cpp的原地算法
-    
-to do:
+    6. 105索引问题还没想明白
 
 other: 
     148.cpp skipped

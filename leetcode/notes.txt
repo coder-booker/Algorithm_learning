@@ -25,6 +25,12 @@ dp:
     3. how to get the result from dp?
     some abstract mindset: 
         how to keep transfering the state? (states can be +ve or -ve states that benefit or harm the result respectively)
+    4. 自底向上（递推），自顶向下（暴力递归+备忘录＋剪枝）
+    常见方法：
+        前缀和
+        暴力递归
+        递归
+        备忘录
 moving windows:
     1. when to move left and right?
     2. when to stop moving left and right?
@@ -67,6 +73,9 @@ stack:
 vector:
     v.insert(v.end(), v2.begin(), v2.end());
 
+Recursion
+- base case: 除了null，还可以看看a是否＞b（在a或b会被绝对数值增减的情况下，例如+1 -1）
+
 to_learn:
     1. 前序中序后序遍历的迭代实现和Morris遍历
     2. 为什么这个优先队列可以插入NULL?????：
@@ -77,6 +86,7 @@ to_learn:
     6. 105索引问题还没想明白
 
 other: 
-    148.cpp skipped
+    148 skipped
+    437 skipped
 
 

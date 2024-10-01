@@ -44,7 +44,7 @@ linked list:
         nth node from the end.
         half from the end. 
         dummy list
-        intersection (linked list concatentation)
+        intersection (linked list concatentation) (可以理解为对齐一定相同的尾部)
     2. dummy node can be used as the head node of modified linked list (so even if it is the original first node that changed, the dummy node is still the head)
     3. delete ==> 2 ptrs(被删除的那个，接上的前一个). swap ==> 3 ptrs(被swap的俩，接上的前一个)
     4. recursion is useful but costly. iteration is space saving but harder to implement.
@@ -90,3 +90,8 @@ other:
     437 skipped
 
 
+
+to do：
+    - dp 找一道做一做
+    - mv window 雨水和任意一道
+    - tree 层序遍历，各种遍历方法

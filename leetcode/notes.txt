@@ -65,6 +65,8 @@ tree:
         AVL树，红黑树都是平衡二叉搜索树
 graph theory:
     本质上就是交叉的树，可以用标记来模拟成每个节点最多四个子节点的树
+    DFS和BFS在这里很重要
+    构建一个邻接表就可以用tree的方式遍历，详看207
 queue: 
     FIFO
     .push(), .pop(), .front(), .back(), .empty()

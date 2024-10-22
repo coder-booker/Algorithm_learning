@@ -10,6 +10,7 @@ general:
     4. 贪心
     5. % 可以用来 range control (189.cpp 轮转数组)
     6. 随机链表拷贝（138.cpp）
+    7. 以反向的方式计算答案，最后反过来输出，可能会比正向算答案更有机会成功。（详见210）
     i++ or ++i: 
         i++: return i, then i = i + 1
         ++i: i = i + 1, then return i
@@ -67,6 +68,7 @@ graph theory:
     本质上就是交叉的树，可以用标记来模拟成每个节点最多四个子节点的树
     DFS和BFS在这里很重要
     构建一个邻接表就可以用tree的方式遍历，详看207
+    邻接表的后序排列昭示着依赖的排序
 queue: 
     FIFO
     .push(), .pop(), .front(), .back(), .empty()

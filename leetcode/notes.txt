@@ -74,6 +74,7 @@ queue:
     .push(), .pop(), .front(), .back(), .empty()
     priority queue: 
         implemented by heap, therefore have priority. 
+    注意，BFS的时候，queue如果用的两层，不可以只判断外层的长度，因为内存必定会有一个array实例，哪怕是空的
 stack:
     s.top(); s.pop(); s.push();
 vector:

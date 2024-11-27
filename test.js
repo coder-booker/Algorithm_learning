@@ -1,4 +1,11 @@
-const [ a = 10, b ] = [20, 10];
+let a = {
+  name: 'a',
+  id: 1
+}
 
-console.log(a); // 20
-console.log(b); // 10
+// for ( let i of a ) {
+//   console.log(i)
+// }
+a.array.forEach(element => {
+  console.log(element) 
+});
